@@ -1,0 +1,40 @@
+{
+  "name": "create-arc-web",
+  "version": "0.1.0",
+  "description": "Zero-dependency project scaffolder for Arc. Interactive wizard, 5 templates, auto-detected package manager.",
+  "bin": {
+    "create-arc-web": "bin/create-arc-web.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arc-language/create-arc-web.git"
+  },
+  "homepage": "https://arc-lang.dev/packages/create-arc-web",
+  "bugs": {
+    "url": "https://github.com/arc-language/create-arc-web/issues"
+  },
+  "author": "Arc contributors",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "create-arc-web",
+    "arc",
+    "arc-language",
+    "scaffolder",
+    "cli",
+    "project-generator",
+    "web-framework"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
+}
