@@ -5,6 +5,11 @@ const { runWizard, newProject, detectPackageManager } = require('../src/new-comm
 
 const args = process.argv.slice(2)
 
+if (args.includes('--version') || args.includes('-v')) {
+  console.log(require('../package.json').version)
+  process.exit(0)
+}
+
 if (args.includes('--help') || args.includes('-h')) {
   console.log(`
   Usage
